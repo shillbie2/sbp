@@ -11,9 +11,9 @@ from googletrans import Translator
 #==============================================================================#
 botStart = time.time()
 
-#line = LINE()
+line = LINE()
 #line = LINE("Eqxs3JHU5qUFjAdDpVXb.w6+8YbOkbOMyiHAGbC+hcW.QfgZq0tKyYgmDc0RpF3AIfOVfJjMv0wkC0O8DuvNyXo=")
-line = LINE("riobrowniz.rh@gmail.com","rio13021994")
+#line = LINE("riobrowniz.rh@gmail.com","rio13021994")
 line.log("Auth Token : " + str(line.authToken))
 #channelToken = line.getChannelResult()
 #line.log("Channel Token : " + str(channelToken))
